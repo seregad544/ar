@@ -1,18 +1,15 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AR</title>
-  <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
+  <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
   <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
 </head>
 
-<body>
+<body style="margin : 0px; overflow: hidden;">
   <a-scene embedded arjs>
-    <a-marker preset='hiro'>
-      <a-sphere position="0 0 0" radius="0.8" color="#2AA29F"></a-sphere>
+    <a-marker preset="hiro">
+      <a-sphere radius="1" color="#EF2D5E"></a-sphere>
     </a-marker>
     <a-entity camera></a-entity>
   </a-scene>
