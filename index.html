@@ -9,7 +9,8 @@
 <body style="margin : 0px; overflow: hidden;">
   <a-scene embedded arjs>
     <a-marker preset="hiro">
-      <a-sphere radius="1" color="#EF2D5E"></a-sphere>
+      <a-entity rotation="-90 0 0" scale="0.1 0.1 0.1" gltf-model="./penguin.gltf">
+      </a-entity>
     </a-marker>
     <a-entity camera></a-entity>
   </a-scene>
